@@ -4,7 +4,7 @@ public class TicTacToeClass {
 	//Instantiating boardof tictoc
 	char board[][]=new char[3][3];
     int counter=1;
-    char turn;
+    char turn='X';
 	public String populateEmptyBoard() {
 		System.out.println("Welcome to 2 Player Tic Tac Toe.");
 		System.out.println("--------------------------------");

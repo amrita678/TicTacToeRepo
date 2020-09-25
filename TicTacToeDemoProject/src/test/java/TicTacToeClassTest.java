@@ -23,6 +23,6 @@ public class TicTacToeClassTest {
 	   }
 		@Test
 		public void XTurnShouldBeFirst() {
-			assertEquals("X", ticTacToeObject.turn,"X should play first ");
+			assertEquals('X', ticTacToeObject.turn,"X should play first ");
 		}
 }
