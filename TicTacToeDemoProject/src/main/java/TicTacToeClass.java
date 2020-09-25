@@ -8,6 +8,8 @@ public class TicTacToeClass {
 	public String populateEmptyBoard() {
 		System.out.println("Welcome to 2 Player Tic Tac Toe.");
 		System.out.println("--------------------------------");
+		System.out.println("X's will play first. Enter a slot number(1 to 9) to place X in: ");
+		System.out.println("--------------------------------");
 		for(int i=0;i<3;i++) {
 			for(int j=0;j<3;j++) {
 				 board[i][j]=Character.forDigit(counter++, 10);
@@ -28,5 +30,10 @@ public class TicTacToeClass {
 		System.out.println(output);
 		return output;
       }
+
+
+	public int validatingSlotAsNumber() {
+		return 0;
+	}
 
 }
