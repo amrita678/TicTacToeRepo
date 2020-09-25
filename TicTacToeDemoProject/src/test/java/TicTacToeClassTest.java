@@ -21,4 +21,8 @@ public class TicTacToeClassTest {
 			String actual=ticTacToeObject.populateEmptyBoard();
 	        assertEquals(expected, actual);
 	   }
+		@Test
+		public void XTurnShouldBeFirst() {
+			assertEquals("X", ticTacToeObject.turn,"X should play first ");
+		}
 }
